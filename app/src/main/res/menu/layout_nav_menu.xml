@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_first"
+        android:title="首页" >
+
+    </item>
+
+    <item
+        android:id="@+id/nav_data"
+        android:icon="@drawable/ic_char"
+        android:title="数据" >
+    </item>
+
+    <item
+        android:id="@+id/nav_weight"
+        android:icon="@drawable/ic_plus_1"
+        android:title=" ">
+    </item>
+
+    <item
+        android:id="@+id/nav_judge"
+        android:icon="@drawable/ic_record"
+        android:title="诊断" >
+    </item>
+
+    <item
+        android:id="@+id/nav_user"
+        android:icon="@drawable/ic_people"
+        android:title="个人" >
+    </item>
+
+</menu>

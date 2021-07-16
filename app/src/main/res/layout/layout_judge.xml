@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前体重指标:"
+            android:textSize="30dp"
+            android:textColor="#000000"/>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F8F8F8" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体重值:"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/textview_weight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="50.0"
+            android:textSize="30dp"
+            android:layout_marginLeft="300dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="KG"
+            android:textSize="30dp"
+            android:layout_marginLeft="360dp" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F8F8F8" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="身体质量指数(BMI):"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/textview_BMI"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="50.0"
+        android:textSize="30dp"
+        android:layout_marginLeft="340dp" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F8F8F8" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#F8F8F8" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="诊断结果:"
+            android:textSize="30dp"
+            android:textColor="#000000"/>
+
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F8F8F8" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体重状况:"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/textview_judge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="偏胖"
+            android:textSize="30dp"
+            android:layout_marginLeft="340dp" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F8F8F8" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="健康体重范围:"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/textview_range"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="18.5 ~ 23.9"
+            android:textSize="30dp"
+            android:layout_marginLeft="250dp" />
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#F8F8F8" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="标准体重:"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/textview_ideal_weight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="50.0"
+            android:textSize="30dp"
+            android:layout_marginLeft="340dp" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PracticeProject</string>
+    <string name="password">密码：</string>
+    <string name="number">账号：</string>
+    <string name="iphone">电话：</string>
+    <string name="sno">学号：</string>
+    <string name="name">姓名：</string>
+    <string name="register">注册</string>
+    <string name="toolbar_plus">添加</string>
+    <string name="toolbar_settings">Settings</string>
+</resources>

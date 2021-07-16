@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#5F9EA0">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="100dp"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/TextView_Title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+
+        />
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/image_user"
+            android:layout_width="54dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_account" />
+        <EditText
+            android:id="@+id/editText_number"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            android:background="#FBFCFD"
+            android:maxLines="1"
+            android:hint="请输入登录名"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <ImageView
+            android:id="@+id/image_pass"
+            android:layout_width="54dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_pass" />
+
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="#FBFCFD"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="120dp"
+            android:maxLines="1"
+            android:hint="请输入密码" />
+    </FrameLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/button_log"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:text="登录"
+            android:textSize="20dp"
+            app:backgroundTint="#009688"/>
+
+        <Button
+            android:id="@+id/button_reg"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="230dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="注册"
+            android:textSize="20dp"
+            android:backgroundTint="#009688"/>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/button_createDatabase"
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="创建"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button_insert"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="插入"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/button_query"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="查询"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/button_del"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="300dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="删除"
+            android:textSize="20dp" />
+
+
+    </FrameLayout>
+
+</LinearLayout>
